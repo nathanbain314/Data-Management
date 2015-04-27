@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C51B5891-3B8A-6B2E-CAB9-6DC9C2ACB4FE" name="NL_admin_group">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:38:30 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="admin_id" id="3AD5306B-3E4A-F9C1-17FD-5047AD233793">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:39:11 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="n_list_id" id="E2D9FFF6-F568-3C72-0725-92ECD53E9F35">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:39:31 UTC</createdTime>
+<generatorID>B0F6A7A2-D8F2-BE34-1B7F-DA47562B1208</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>102F8B19-22AE-BF13-885E-467D8DC485DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Employee_id" id="F02D44C1-197B-9194-4ED4-34E654B10CA7">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:39:52 UTC</createdTime>
+<generatorID>5027D92A-905F-01F2-AE81-725450088B14</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>01785A36-C9A4-49A2-8B9E-E79605204DB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0ADA9E48-30A8-ADC6-042D-79CE5DB7CEA9" name="{entity} PK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:39:20 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AD5306B-3E4A-F9C1-17FD-5047AD233793</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

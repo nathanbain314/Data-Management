@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47A7DCAF-2A39-18F5-7C7A-9692CA9AAA50" name="NL_admin_group">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>C51B5891-3B8A-6B2E-CAB9-6DC9C2ACB4FE</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="admin_id" id="102B8118-C347-7F63-9354-A56B1768E18D">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>3AD5306B-3E4A-F9C1-17FD-5047AD233793</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_n_list_n_list_id" id="5D4920C6-25D1-4DEC-C6B8-E096AFDBC2C8">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>E2D9FFF6-F568-3C72-0725-92ECD53E9F35</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>38549B5C-DF8E-DDE2-1BD7-1B0288BC8462</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0236494A-3B33-2B42-2D6D-5EDD128DB47B" referredColumn="38549B5C-DF8E-DDE2-1BD7-1B0288BC8462"/>
+</associations>
+</Column>
+<Column name="NL_ARL_Emp_user_id" id="668CD0F7-A314-E9DA-5E98-B348C287672C">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>F02D44C1-197B-9194-4ED4-34E654B10CA7</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2F208342-9701-2F78-D51E-973AF23FE357</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AA19FF3-A25B-F40D-FB60-53C4A51A6773" referredColumn="2F208342-9701-2F78-D51E-973AF23FE357"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46CEF4C0-F579-E6EA-8C18-A32BF39FF32D" name="NL_admin_group_PK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>0ADA9E48-30A8-ADC6-042D-79CE5DB7CEA9</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="102B8118-C347-7F63-9354-A56B1768E18D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="599D340D-55EA-8273-3A6A-1A05D5E5735C" name="NL_admin_group_NL_n_list_FK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>B0F6A7A2-D8F2-BE34-1B7F-DA47562B1208</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D4920C6-25D1-4DEC-C6B8-E096AFDBC2C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41CF5B94-0AB5-54E7-19AB-06EDC869C2A0" name="NL_admin_group_NL_ARL_Emp_FK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>5027D92A-905F-01F2-AE81-725450088B14</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="668CD0F7-A314-E9DA-5E98-B348C287672C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

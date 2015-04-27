@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDAA5533-C7B7-CDB6-36A9-D4B86DDFD656" name="NL_Member">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>15953695-6CBE-8004-D261-393B665AA8EC</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_id" id="5BFB3DFC-5FB8-E6F7-C88B-68232FE32E7C">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>5C6A63C3-6744-EB6B-84B0-170B9AE5FBB0</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="BD0997A8-0B46-B664-867A-E3660885103E">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>C2288DA7-8BDD-DBF8-0E93-003E82C64150</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_ARL_Emp_Employee_id" id="958632B5-3A6A-3797-60AB-846AE0A37045">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>70FC8611-FF7E-2D8F-FAB8-F996723C9384</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1563E4B5-507D-C164-D125-9D3139E8847A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEE05073-F2AC-1511-5164-7B8287957613" referredColumn="1563E4B5-507D-C164-D125-9D3139E8847A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01C505BD-B833-5489-1E77-49C09DBA60CA" name="NL_Member_PK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>8B639946-DCC0-322C-9FE2-A57F53FB619D</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BFB3DFC-5FB8-E6F7-C88B-68232FE32E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F6DC85-32C0-D8A1-E360-015619244BF7" name="NL_Member__IDX">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4C599A51-F88D-32C3-E528-D82CCF0CA3F0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="958632B5-3A6A-3797-60AB-846AE0A37045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28D6D371-C386-B789-2922-8AC38F1CA16D" name="NL_Member_NL_ARL_Emp_FK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>4C599A51-F88D-32C3-E528-D82CCF0CA3F0</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="958632B5-3A6A-3797-60AB-846AE0A37045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

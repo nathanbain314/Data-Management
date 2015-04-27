@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25EE1538-4B4E-4358-CF13-E4006E2E0EC7" name="NL_Document">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>DC914DFA-FF82-4660-1640-E9C8B4A9372A</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="98A31679-4C9C-9D03-BC0E-B1AB88523250">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>515A0998-9721-812A-2689-C346622879B7</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filename" id="BD65E96C-A3CA-E905-8E38-9E4630F6E37F">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>18701F02-77E6-B88D-7B38-BC9C9B49568E</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_mimetype" id="DA238BF3-4E91-97F5-94CC-714898D9D730">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>C50CB446-4EFB-27B3-988D-C2CEE27C53B6</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_charset" id="AF65FAEE-E269-E17A-05D8-81950E29C563">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>BCEAF6B9-1A9E-FFFC-2262-DFBEA95B22A4</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_data" id="3767F45B-BF8B-5620-718D-28A315A56123">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>0C8FDC5B-895B-7DF1-097B-903F54BDB4A0</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_comments" id="C132F6E7-4627-B984-FECE-8622916B4D8D">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>2B4AE8E9-AA7A-D3E2-61CE-9E6DED65FBE7</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tags" id="02094316-870E-96E7-01B7-C09C12E3CDDA">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>6071D321-177C-AFE2-6676-D48E62709197</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_Member_member_id" id="851B6EA5-98AB-F863-6D31-24F37C8DE843">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>0892D252-354B-25AB-8FA7-93B72EA21AA6</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5BFB3DFC-5FB8-E6F7-C88B-68232FE32E7C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DD98B19-5051-38AB-1BA2-C878DE442EF4" referredColumn="5BFB3DFC-5FB8-E6F7-C88B-68232FE32E7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EB86E75-4197-28E5-EDA3-EBEC7D5FFFDB" name="NL_Document_PK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>9C797064-CDCA-DA27-789A-A3C4B4A70F26</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98A31679-4C9C-9D03-BC0E-B1AB88523250"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="993940FA-434F-23E8-A604-2929DC986ECD" name="NL_Document_NL_Member_FK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:23:27 UTC</createdTime>
+<generatorID>135DDA26-392C-EF3F-11B7-D7429CC76AB7</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="851B6EA5-98AB-F863-6D31-24F37C8DE843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

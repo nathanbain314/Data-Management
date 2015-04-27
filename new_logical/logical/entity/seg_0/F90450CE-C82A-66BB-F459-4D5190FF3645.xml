@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F90450CE-C82A-66BB-F459-4D5190FF3645" name="Subscription_list">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:29:09 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<engineerTo>
+<item key="494D91EB-DD14-20AA-4531-CE7F534109BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="s_list_id" id="8C7F2F8F-2116-CB66-EA6C-468E7C312719">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:29:20 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<engineerTo>
+<item key="494D91EB-DD14-20AA-4531-CE7F534109BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="n_list_id" id="8F9D9896-DA81-CC84-D6F6-4009298A75EA">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:31:13 UTC</createdTime>
+<generatorID>414B2675-F4EB-8303-C284-E0F7CC28B523</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<engineerTo>
+<item key="494D91EB-DD14-20AA-4531-CE7F534109BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>102F8B19-22AE-BF13-885E-467D8DC485DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="member_id" id="A84E121B-D53F-AEA3-FBEF-09FEEA780FFD">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:31:17 UTC</createdTime>
+<generatorID>C6AE07B5-6905-93A0-9A20-5B78918BECE1</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<engineerTo>
+<item key="494D91EB-DD14-20AA-4531-CE7F534109BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5C6A63C3-6744-EB6B-84B0-170B9AE5FBB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="date_added" id="9663C845-5F40-94DE-3B17-1C891E1E5CC1">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:31:43 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<engineerTo>
+<item key="494D91EB-DD14-20AA-4531-CE7F534109BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2BBA275-2AD2-58D0-167D-06AE09B8F497" name="{entity} PK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:49:09 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<engineerTo>
+<item key="494D91EB-DD14-20AA-4531-CE7F534109BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C7F2F8F-2116-CB66-EA6C-468E7C312719</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

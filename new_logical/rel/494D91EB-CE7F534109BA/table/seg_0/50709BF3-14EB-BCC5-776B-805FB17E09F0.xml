@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50709BF3-14EB-BCC5-776B-805FB17E09F0" name="Subscription_list">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>F90450CE-C82A-66BB-F459-4D5190FF3645</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="s_list_id" id="98F50E15-E731-DFB0-21E5-92FA9C966521">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>8C7F2F8F-2116-CB66-EA6C-468E7C312719</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_n_list_n_list_id" id="E3A1947C-8B47-183C-CF3D-D92C8B6D5964">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>8F9D9896-DA81-CC84-D6F6-4009298A75EA</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>38549B5C-DF8E-DDE2-1BD7-1B0288BC8462</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2B848F2-02E1-26AB-07BA-A4251CC39EDB" referredColumn="38549B5C-DF8E-DDE2-1BD7-1B0288BC8462"/>
+</associations>
+</Column>
+<Column name="NL_Member_member_id" id="26C41C5D-EA0A-63DC-659B-A18A122258A4">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>A84E121B-D53F-AEA3-FBEF-09FEEA780FFD</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>375F3B7C-B384-4AB9-3BB9-19A0EE53DADF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BACC1845-F4F8-2956-3D66-C3454CE0F6EA" referredColumn="375F3B7C-B384-4AB9-3BB9-19A0EE53DADF"/>
+</associations>
+</Column>
+<Column name="date_added" id="9A7D8B9D-ECB1-D21E-8F76-589D0AEA99C7">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>9663C845-5F40-94DE-3B17-1C891E1E5CC1</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="129A4528-9338-105E-9C2B-FADB19A27E39" name="Subscription_list_PK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>A2BBA275-2AD2-58D0-167D-06AE09B8F497</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98F50E15-E731-DFB0-21E5-92FA9C966521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9B3A105-AA54-F3C6-1A23-9C9E094998D0" name="Subscription_list_NL_n_list_FK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>414B2675-F4EB-8303-C284-E0F7CC28B523</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A1947C-8B47-183C-CF3D-D92C8B6D5964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F34D9C6-681A-106A-DE74-450D79A9FA3D" name="Subscription_list_NL_Member_FK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:51:39 UTC</createdTime>
+<generatorID>C6AE07B5-6905-93A0-9A20-5B78918BECE1</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C41C5D-EA0A-63DC-659B-A18A122258A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

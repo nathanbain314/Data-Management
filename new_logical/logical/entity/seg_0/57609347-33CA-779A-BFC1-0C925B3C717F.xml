@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57609347-33CA-779A-BFC1-0C925B3C717F" name="NL_ARL_Emp">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:22:42 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Employee_id" id="01785A36-C9A4-49A2-8B9E-E79605204DB2">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:23:15 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Employee_name" id="64DD210B-09D3-A5CC-F29B-A41D2E04CB1A">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:09:35 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="Employee_lab" id="F079AAC2-3AFE-4847-7F0F-5BB31A9D0563">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:11:31 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="Employee_division" id="3A35C601-2E9F-5E28-C00D-E97A600AE430">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:11:51 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="Employee_status" id="DDFD8267-E1F4-7A5A-DAB9-104A8E9ACE88">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:12:36 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="Status_effective_date" id="385B8854-961D-33A6-F431-1EA17BFACED9">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-22 23:13:17 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="admin" id="A29F93BE-97DB-4397-E97B-A8108E77D37B">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:37:32 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="member_id" id="94D324E5-9213-4825-682E-6A0308535213">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:38:20 UTC</createdTime>
+<generatorID>4C599A51-F88D-32C3-E528-D82CCF0CA3F0</generatorID>
+<ownerDesignName>new_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5C6A63C3-6744-EB6B-84B0-170B9AE5FBB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62A35BCA-6533-5C5E-8CEA-35E7BD43BCBB" name="{entity} PK">
+<createdBy>nathanbain</createdBy>
+<createdTime>2015-04-21 23:23:29 UTC</createdTime>
+<ownerDesignName>new_logical</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01785A36-C9A4-49A2-8B9E-E79605204DB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
